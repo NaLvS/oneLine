@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutDisabledMessage="@string/start_draw"
+        android:shortcutId="settings"
+        android:shortcutLongLabel="@string/draw_long_name"
+        android:shortcutShortLabel="@string/draw_short_name">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.sky.oneline.ui.activity.OneLineActivity"
+            android:targetPackage="com.sky.oneline" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
